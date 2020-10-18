@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.my_1app">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,8 +19,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".ZoomClass" />
+        <activity android:name=".Book" />
+        <activity android:name=".Study1Activity" />
+        <activity android:name=".Study2Activity" />
+        <activity android:name=".Study3Activity" />
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
+
 
 </manifest>

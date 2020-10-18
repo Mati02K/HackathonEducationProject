@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    >
 
 
     <LinearLayout
@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Dashboard"
+            android:text="Teacher Dashboard"
             android:fontFamily="@font/googlesans_bold"
             android:textSize="24sp"
             android:textColor="@color/white"
@@ -53,48 +53,84 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/idea"
-                        android:layout_marginTop="18dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Idea"
-                        android:fontFamily="@font/googlesans_bold"
-                        android:textSize="18sp"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"/>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    >
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
                         android:src="@drawable/suggestion"
                         android:layout_marginTop="18dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Suggestion"
+                        android:text="My Profile"
+                        android:fontFamily="@font/googlesans_bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/classroom"
+                        android:layout_marginTop="18dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create Class"
+                        android:fontFamily="@font/googlesans_bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="20dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/assignment"
+                        android:layout_marginTop="18dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Post Assignment"
                         android:fontFamily="@font/googlesans_bold"
                         android:textSize="18sp"
                         android:textColor="@color/white"
@@ -122,13 +158,13 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/career"
+                        android:src="@drawable/book"
                         android:layout_marginTop="18dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Career"
+                        android:text="View E-Books"
                         android:fontFamily="@font/googlesans_bold"
                         android:textSize="18sp"
                         android:textColor="@color/white"
@@ -156,13 +192,13 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/medical"
+                        android:src="@drawable/gallery"
                         android:layout_marginTop="18dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Medical"
+                        android:text="Post Gallery"
                         android:fontFamily="@font/googlesans_bold"
                         android:textSize="18sp"
                         android:textColor="@color/white"
@@ -190,13 +226,13 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/food"
+                        android:src="@drawable/report"
                         android:layout_marginTop="18dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Food"
+                        android:text="Enter Report Card"
                         android:fontFamily="@font/googlesans_bold"
                         android:textSize="18sp"
                         android:textColor="@color/white"
@@ -206,107 +242,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
-                android:layout_margin="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    >
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/gym"
-                        android:layout_marginTop="18dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Gym"
-                        android:fontFamily="@font/googlesans_bold"
-                        android:textSize="18sp"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"/>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    >
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/settings"
-                        android:layout_marginTop="18dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Settings"
-                        android:fontFamily="@font/googlesans_bold"
-                        android:textSize="18sp"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"/>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    >
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/trash"
-                        android:layout_marginTop="18dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Delete"
-                        android:fontFamily="@font/googlesans_bold"
-                        android:textSize="18sp"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="20dp"/>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
 
 
         </GridLayout>
