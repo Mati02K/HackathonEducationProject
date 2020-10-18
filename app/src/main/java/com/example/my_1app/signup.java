@@ -81,10 +81,6 @@ public class signup extends AppCompatActivity {
         else if(prof == "Parent"){
             reference = rootNode.getReference("Parents");
         }
-        else{
-            reference = rootNode.getReference("Guest");
-        }
-
 
 
 
